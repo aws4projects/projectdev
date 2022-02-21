@@ -1,0 +1,41 @@
+body{
+    background-color: skyblue;
+   background-image: url(reff.jpg);
+}
+*{
+    box-sizing: border-box;
+}
+.cont{
+    margin:auto;
+    width: 40%;
+    padding: 16px;
+    background-color: transparent;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0);
+}
+input[type="text"],input[type="password"]{
+    width:100%;
+    padding:10px;
+    margin:5px 0 22px 0;
+    display: inline-block;
+    border: red;
+    background:paleturquoise;
+    
+}
+input[type="text"]:hover,input[type="password"]:hover{
+    background-color:rgb(209, 163, 209);
+    outline: none;
+}
+.regis{
+    background-color: rgb(163, 47, 154);
+    color:white;
+    padding:16px;
+    border:ridge;
+    cursor:pointer;
+    width: 100%;
+    margin:auto;
+    opacity:0.9;
+}
+.regis:hover{
+    background-color:rgb(25, 105, 158);
+    opacity:1;
+}
